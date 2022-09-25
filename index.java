@@ -8,7 +8,7 @@ class index{
 
         System.out.print("\nKoi bhi number dal do : ");
         String num=input.nextLine();
-        System.out.print("\n    Hamara number hai : "+num);
+        System.out.print("\n    Num + 10 : "+(num+10));
 
         input.close();
     }
