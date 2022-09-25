@@ -6,6 +6,7 @@ class index{
         Scanner input = new Scanner(System.in);
         System.out.println("Koi bhi number dal do : ");
         int num=input.nextInt();
+        System.out.print("\n    Num + 10 : "+(num+10));
         input.close();
     }
 }
